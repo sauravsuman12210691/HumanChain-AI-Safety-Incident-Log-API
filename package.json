@@ -1,0 +1,35 @@
+{
+  "name": "humanchain-ai-safety",
+  "version": "1.0.0",
+  "description": "This is a simple REST API built using Node.js, Express, and MongoDB to log and manage AI Safety Incidents.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "populate": "node populate_db.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sauravsuman12210691/HumanChain-AI-Safety-Incident-Log-API.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "MongoDb"
+  ],
+  "author": "Saurav Suman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sauravsuman12210691/HumanChain-AI-Safety-Incident-Log-API/issues"
+  },
+  "homepage": "https://github.com/sauravsuman12210691/HumanChain-AI-Safety-Incident-Log-API#readme"
+}
