@@ -47,7 +47,15 @@ PORT=5000  # Port for the server
 > **Note**: If using a cloud database like MongoDB Atlas, replace `MONGO_URI` with your connection string.
 
 ## **Running the Application**
+### **Populating Database (Optional)**
 
+To populate the database with sample incidents, run the following command:
+```bash
+npm run populate
+```
+This will delete any existing incidents and insert 2-3 sample incidents into the database.
+
+---
 ### 1. Start the Application
 To run the application in development mode with auto-reloading, use `nodemon`:
 ```bash
@@ -173,15 +181,7 @@ The API returns standard HTTP error responses when an error occurs.
   }
   ```
 
-## **Populating Database (Optional)**
 
-To populate the database with sample incidents, run the following command:
-```bash
-npm run populate
-```
-This will delete any existing incidents and insert 2-3 sample incidents into the database.
-
----
 
 ## **Environment Variables**
 You need to configure the following environment variables:
